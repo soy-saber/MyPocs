@@ -1,4 +1,4 @@
-# FoxCMS Unauthenticated SSRF via /plus/access/stat
+# FoxCMS Unauthenticated SSRF
 
 Open source address： https://github.com/qianfox/foxcms
 
