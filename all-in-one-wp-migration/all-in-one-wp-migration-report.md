@@ -142,14 +142,14 @@ Attacker-Controlled Data Flow:
 
 ## Available Gadget Chains
 
-| Gadget                      | WordPress Version | Method                                                    |
-| :-------------------------- | :---------------- | :-------------------------------------------------------- |
-| `WP_HTML_Token::__destruct` | 6.4.0 ~ 6.4.1     | `call_user_func($this->on_destroy, $this->bookmark_name)` |
-| Other plugins/themes        | Any               | Any class with `__destruct` + dangerous call              |
+| Gadget                                                       | WordPress Version | Method                                                    |
+| :----------------------------------------------------------- | :---------------- | :-------------------------------------------------------- |
+| `WP_HTML_Token::__destruct`                                  | 6.4.0 ~ 6.4.1     | `call_user_func($this->on_destroy, $this->bookmark_name)` |
+| Other plugins/themes<br />**It is known that a gadget exists in Yoast SEO.** | Any               | Any class with `__destruct` + dangerous call              |
 
 **`WP_HTML_Token`** (wp-includes/html-api/class-wp-html-token.php:92-94): Known available gadget class
 
-
+The gadget exploitation in the Yoast SEO plugin can be found at [https://soy-saber.github.io/2026/06/04/wordpress%E6%8F%92%E4%BB%B6%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/](https://soy-saber.github.io/2026/06/04/wordpress插件漏洞分析/)
 
 ## ScreenShots
 
